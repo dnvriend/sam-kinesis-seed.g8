@@ -8,5 +8,7 @@ lazy val `$name$` = (project in file("."))
     libraryDependencies += "com.fasterxml.jackson.dataformat" % "jackson-dataformat-cbor" % "2.9.3",
     resolvers += Resolver.bintrayRepo("dnvriend", "maven"),
     scalaVersion := "2.12.4",
-	samStage := "hello"
+	  samStage := "$stage$",
+    organization := "$organization$",
+    description := "simple sam component with kinesis stream"
   )
