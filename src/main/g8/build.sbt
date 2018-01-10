@@ -1,8 +1,8 @@
 
 lazy val `$name$` = (project in file("."))
   .settings(
-	libraryDependencies += "com.github.dnvriend" %% "sam-annotations" % "1.0.13",
-    libraryDependencies += "com.github.dnvriend" %% "sam-lambda" % "1.0.13",
+	libraryDependencies += "com.github.dnvriend" %% "sam-annotations" % "1.0.16",
+    libraryDependencies += "com.github.dnvriend" %% "sam-lambda" % "1.0.16",
     libraryDependencies += "com.amazonaws" % "aws-lambda-java-core" % "1.2.0",
     libraryDependencies += "com.amazonaws" % "aws-java-sdk-kinesis" % "1.11.255",
     libraryDependencies += "com.fasterxml.jackson.dataformat" % "jackson-dataformat-cbor" % "2.9.3",
